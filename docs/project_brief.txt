@@ -1,0 +1,38 @@
+# Indian Sign Language Detector
+
+## Objective
+Build a webcam-based machine-learning prototype that recognizes individual Indian Sign Language (ISL) signs.
+
+## Vocabulary
+1. HELLO
+2. THANK-YOU
+3. YES
+4. NO
+5. HELP
+6. PLEASE
+7. SORRY
+8. GOOD
+9. IDLE (no sign detected)
+
+All eight proposed signs must be validated by a fluent ISL signer.
+
+## Technologies
+- Python 3.11
+- OpenCV
+- MediaPipe
+- NumPy
+- scikit-learn
+
+## Input and Output
+Input: Live webcam video.
+
+Output: Predicted sign and confidence score.
+
+## Success Criteria
+1. Webcam hand tracking works reliably.
+2. The model recognizes eight signs and the IDLE class.
+3. Target test accuracy is at least 85% on a signer not used for training.
+4. Target live prediction latency is below 200 milliseconds.
+
+## Limitations
+This is a learning prototype, not a complete sentence translator. It is not a replacement for a qualified sign-language interpreter. Actual performance and limitations will be documented after testing.
